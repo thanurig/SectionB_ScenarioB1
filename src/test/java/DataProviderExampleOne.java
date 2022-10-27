@@ -13,10 +13,7 @@ public class DataProviderExampleOne {
     //when Data-provider annotation is in same class
     @Test(dataProvider = "LoginDataProvider")
     public void loginTest(String email,String password){
-        System.out.println("UserName:"+" "+email);
-        System.out.println("Password:"+" "+password);
-
+        System.out.println("UserName:" + " " +email+ "  Password:" + " "+password);
     }
-
 
 }
